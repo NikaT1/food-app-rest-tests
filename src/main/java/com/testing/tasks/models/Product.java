@@ -8,9 +8,9 @@ import lombok.extern.jackson.Jacksonized;
 
 @RequiredArgsConstructor
 @Getter
-@EqualsAndHashCode
 @Builder
 @Jacksonized
+@EqualsAndHashCode
 public class Product {
     private final String name;
     private final String type;

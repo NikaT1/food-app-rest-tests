@@ -85,7 +85,7 @@
                 <version>${maven.surefire.plugin.version}</version>
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <includes>**/*Tests.java</includes>
+                    <includes>**/*Test.java</includes>
                     <argLine>
                         -Xmx1024m
                         -Dfile.encoding=${project.build.sourceEncoding}
